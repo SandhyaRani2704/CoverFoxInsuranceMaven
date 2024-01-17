@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="coverFoxTest.TC06_validate_Text">
+        <methods>
+          <include name="launchingBrowser"/>
+          <include name="Enter_Member_Details"/>
+          <include name="CloseBrowser"/>
+          <include name="TC06_Validating_The_text"/>
+        </methods>
+      </class> <!-- coverFoxTest.TC06_validate_Text -->
+      <class name="coverFoxTest.TC06_Validating_the_Plan_Results">
+        <methods>
+          <include name="Validating_TextResult_And_BannerResult"/>
+          <include name="CloseBrowser"/>
+          <include name="launchCoverFox"/>
+          <include name="enterMemberDetails"/>
+        </methods>
+      </class> <!-- coverFoxTest.TC06_Validating_the_Plan_Results -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
